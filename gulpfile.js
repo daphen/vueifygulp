@@ -40,7 +40,7 @@ gulp.task('autoprefix', function() {
 });
 
 
-Scripts
+//Scripts
 gulp.task('scripts', function() {
     browserify('./vendor/js/app.js')
         .transform(vueify)
