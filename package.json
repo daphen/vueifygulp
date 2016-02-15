@@ -1,16 +1,27 @@
 {
   "name": "takana-example",
   "version": "0.0.1",
-  "description": "takana example project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Nabor",
+  "main": "app.js",
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-runtime": "^5.8.35",
+    "browser-sync": "^2.8.2",
+    "browserify": "^13.0.0",
     "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-jade": "^1.1.0",
     "gulp-sass": "^1.2.4",
-    "takana": "^0.4.2"
+    "gulp-sourcemaps": "^1.6.0",
+    "takana": "^0.4.2",
+    "vue": "^1.0.16",
+    "vue-hot-reload-api": "^1.3.2",
+    "vueify": "^8.3.5",
+    "vueify-insert-css": "^1.0.0"
   }
 }
